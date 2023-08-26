@@ -1,10 +1,9 @@
 import React from 'react'
-import Particlesbackground from './ParticlesBackground'
 
-const CompBanner = () => {
+const CompBanner = ({title}) => {
   return (
-    <div className=''>
-        <Particlesbackground />
+    <div className='border w-full h-[45vh] flex justify-center items-center'>
+      {title}
     </div>
   )
 }

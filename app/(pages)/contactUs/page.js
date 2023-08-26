@@ -1,9 +1,13 @@
-import React from 'react'
+import CompBanner from "@/components/CompBanner";
+import React from "react";
 
 const ConactUs = () => {
   return (
-    <div>ConactUs</div>
-  )
-}
+    <div>
+      <CompBanner title={"Contact Us"} />
+      ConactUs
+    </div>
+  );
+};
 
-export default ConactUs
+export default ConactUs;

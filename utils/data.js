@@ -30,3 +30,18 @@ export const navbarData = [
     link: '/research',
   },
 ];
+
+export const companyItems = [
+  {
+    name: 'About Us',
+    color: 'red',
+  },
+  {
+    name: 'Missions Statement',
+    color: 'white',
+  },
+  {
+    name: 'Leadership',
+    color: 'white',
+  },
+]

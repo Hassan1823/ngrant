@@ -53,7 +53,8 @@ const Navbar = () => {
                   {item.subTitles.map((subTitles, index) => (
                     <li key={index} className="my-4 ">
                       
-                      <Link href={`/${item.link}/${subTitles}`}>
+                      {/* <Link href={`/${item.link}/${subTitles}`}> */}
+                      <Link href={`/${subTitles}`}>
                         <span className="border-b hover:text-gray-950">
                           {subTitles}
                         </span>

@@ -1,9 +1,13 @@
-import React from 'react'
+import CompBanner from "@/components/CompBanner";
+import React from "react";
 
 const Product = () => {
   return (
-    <div>Product</div>
-  )
-}
+    <div>
+      <CompBanner title={"products"} />
+      Product
+    </div>
+  );
+};
 
-export default Product
+export default Product;
