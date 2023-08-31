@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles";
 
 const Particlesbackground = () => {
   const Particlesinit = async (main) => {
-    console.log(main);
+    // console.log(main);
     await loadFull(main);
   };
   return (

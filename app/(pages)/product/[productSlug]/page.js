@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ProductSlug = () => {
   return (
-    <div>ProductSlug</div>
-  )
-}
+    <>
+      <div>ProductSlug</div>
+    </>
+  );
+};
 
-export default ProductSlug
+export default ProductSlug;

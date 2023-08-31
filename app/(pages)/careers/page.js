@@ -3,6 +3,7 @@
 import CompBanner from "@/components/CompBanner";
 import React from "react";
 import { usePathname } from "next/navigation"; // import usePathname hook
+import Particlesbackground from "@/components/ParticlesBackground";
 
 
 const Careers = () => {
@@ -15,6 +16,8 @@ const Careers = () => {
         <CompBanner title={"Careers"}/>
         Careers Main
       </div>
+      <Particlesbackground />
+
     </div>
   );
 };
