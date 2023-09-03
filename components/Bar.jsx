@@ -5,6 +5,9 @@ import React, { useState } from "react";
 // local imports
 import { companyItems } from "@/utils/data";
 import Link from "next/link";
+import AboutUs from "./AboutUs";
+import MissionsStatement from "./MissionsStatement";
+import Leadership from "./Leadership";
 
 const Bar = ({ title }) => {
   const [selectItem, setSelectItem] = useState(title);
@@ -13,7 +16,7 @@ const Bar = ({ title }) => {
   };
   // console.log("Selected item is : ", selectItem);
   return (
-    <>
+    <div className="w-full h-auto flex flex-col">
       <div className="border w-full h-14 flex justify-center items-center gap-8">
         {/* bar comp for company page */}
         {companyItems?.map((items, index) => (
@@ -35,15 +38,25 @@ const Bar = ({ title }) => {
       </div>
       {/* showing diff pages  */}
       {selectItem === "About Us" ? (
-        <>about us</>
+        <>
+          <AboutUs />
+        </>
       ) : selectItem === "Missions Statement" ? (
-        <>mission statement</>
+        <>
+          <MissionsStatement />
+        </>
       ) : selectItem === "Leadership" ? (
-        <>Leadership</>
+        <>
+          <Leadership />
+        </>
       ) : (
-        <>all</>
+        <>
+          <AboutUs />
+          <MissionsStatement />
+          <Leadership />
+        </>
       )}
-    </>
+    </div>
   );
 };
 

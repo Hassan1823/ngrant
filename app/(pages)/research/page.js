@@ -7,8 +7,9 @@ const ResearchAndBlog = () => {
     <>
       <div>
         <CompBanner title={"Research & Blog"} />
-        Research And Blog
       </div>
+      <div className="w-full h-screen bg-black">hello</div>
+
       <Particlesbackground />
     </>
   );

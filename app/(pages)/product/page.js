@@ -9,6 +9,9 @@ const Product = () => {
         <CompBanner title={"products"} />
         Product
       </div>
+      <div className="w-full h-screen bg-black">
+
+      </div>
       <Particlesbackground />
     </>
   );

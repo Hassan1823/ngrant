@@ -9,6 +9,10 @@ const ConactUs = () => {
       <CompBanner title={"Contact Us"} />
       ConactUs
     </div>
+    <div className="w-full h-screen bg-black">
+      heloo
+    </div>
+    
     <Particlesbackground />
 
     </>
